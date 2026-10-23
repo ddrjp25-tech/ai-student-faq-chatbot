@@ -1,10 +1,29 @@
 import os
+import sys
+import types
 from pathlib import Path
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
+
+# Ensure project root and backend directory are always in sys.path
+_current_dir = Path(__file__).resolve().parent
+_project_root = _current_dir.parent
+
+for _p in [str(_project_root), str(_current_dir)]:
+    if _p not in sys.path:
+        sys.path.insert(0, _p)
+
+# Support running directly within backend directory (e.g. Render root dir = backend)
+if "backend" not in sys.modules:
+    try:
+        import backend
+    except ModuleNotFoundError:
+        _backend_pkg = types.ModuleType("backend")
+        _backend_pkg.__path__ = [str(_current_dir)]
+        sys.modules["backend"] = _backend_pkg
 
 from backend.config import settings
 from backend.services.vector_store import VectorStoreService
@@ -72,6 +91,11 @@ async def health_check():
 
 # Static Frontend mounting
 frontend_dir = settings.BASE_DIR.parent / "frontend"
+if not frontend_dir.exists():
+    frontend_dir = Path("frontend").resolve()
+if not frontend_dir.exists():
+    frontend_dir = Path("../frontend").resolve()
+
 if frontend_dir.exists():
     app.mount("/static", StaticFiles(directory=str(frontend_dir)), name="static")
 
@@ -84,4 +108,6 @@ if frontend_dir.exists():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("backend.main:app", host=settings.HOST, port=settings.PORT, reload=True)
+    port = int(os.getenv("PORT", settings.PORT))
+    host = os.getenv("HOST", settings.HOST)
+    uvicorn.run("backend.main:app", host=host, port=port, reload=False)

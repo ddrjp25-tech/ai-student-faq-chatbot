@@ -176,7 +176,7 @@ cd "c:\Users\dheer\OneDrive\Desktop\VA Chatbot1"
 
 ### 2. Install Dependencies
 ```bash
-pip install -r backend/requirements.txt
+pip install -r requirements.txt
 ```
 
 ### 3. (Optional) Configure Environment Variables
@@ -185,6 +185,20 @@ Copy `.env.example` to `.env`:
 cp .env.example .env
 ```
 > **Note:** An LLM API key is **completely optional**. The system includes an intelligent grounded offline synthesizer that works 100% locally with zero external API dependencies!
+
+---
+
+## 🌐 Deploying to Public Cloud (Render / Railway)
+
+### Deploying on Render (Web Service):
+1. Create a **New Web Service** connected to your repository.
+2. Configure settings:
+   - **Root Directory:** *(leave blank / default)*
+   - **Environment:** `Python 3`
+   - **Build Command:** `pip install -r requirements.txt`
+   - **Start Command:** `python run.py` *(or `uvicorn main:app --host 0.0.0.0 --port $PORT`)*
+3. Render automatically sets the `$PORT` environment variable (e.g. 10000), which the application automatically detects and binds to.
+
 
 ---
 

@@ -11,10 +11,13 @@ from backend.config import settings
 import uvicorn
 
 if __name__ == "__main__":
+    port = int(os.getenv("PORT", str(settings.PORT)))
+    host = os.getenv("HOST", settings.HOST)
     print("=================================================================")
     print(">> Starting Akash Institute of Engineering & Technology (AIET)")
     print("   AI Voice Assistant & College FAQ System")
-    print(f"   Server running at: http://localhost:{settings.PORT}")
-    print(f"   Swagger API Docs at: http://localhost:{settings.PORT}/docs")
+    print(f"   Server running at: http://{host}:{port}")
+    print(f"   Swagger API Docs at: http://{host}:{port}/docs")
     print("=================================================================")
-    uvicorn.run("backend.main:app", host=settings.HOST, port=settings.PORT, reload=False)
+    uvicorn.run("backend.main:app", host=host, port=port, reload=False)
+
