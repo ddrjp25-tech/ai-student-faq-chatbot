@@ -1,0 +1,435 @@
+[
+  {
+    "id": "course_cse",
+    "course_name": "Bachelor of Engineering in Computer Science and Engineering",
+    "short_name": "BE CSE",
+    "level": "Undergraduate (UG)",
+    "duration": "4 Years (8 Semesters)",
+    "degree_awarded": "Bachelor of Engineering (B.E.)",
+    "affiliated_to": "Visvesvaraya Technological University (VTU), Belagavi",
+    "approved_by": "AICTE, New Delhi",
+    "department": "Department of Computer Science & Engineering",
+    "head_of_department": "Dr. Somanath J Patil (Associate Professor and Head)",
+    "eligibility": "Candidate must have passed 10+2 / 2nd PUC or equivalent examination with English, Physics, and Mathematics as compulsory subjects along with Chemistry / Biotechnology / Biology / Computer Science / Electronics as optional subjects, securing at least 45% aggregate marks (40% for SC/ST and OBC candidates of Karnataka).",
+    "admission_routes": [
+      {
+        "route": "KCET (KEA)",
+        "code": "E300",
+        "description": "Karnataka Common Entrance Test conducted by KEA for Karnataka domicile students."
+      },
+      {
+        "route": "COMEDK UGET",
+        "code": "E005",
+        "description": "Consortium of Medical, Engineering and Dental Colleges of Karnataka exam for all-India candidates."
+      },
+      {
+        "route": "Management Quota",
+        "code": "AIET-Direct",
+        "description": "Direct institutional merit admission based on 10+2 qualifying marks."
+      }
+    ],
+    "specialized_laboratories": [
+      "Data Structures & Algorithms Laboratory",
+      "Python Programming Laboratory",
+      "Database Management Systems (DBMS) Laboratory",
+      "Java Programming Laboratory",
+      "Operating Systems & System Software Laboratory",
+      "Computer Networks & Cloud Computing Laboratory",
+      "Project & Research Innovation Center"
+    ],
+    "curriculum_highlights": "Designed under VTU Choice-Based Credit System (CBCS) and Outcome-Based Education (OBE). Covers Data Structures, Design and Analysis of Algorithms, DBMS, Operating Systems, Computer Networks, Software Engineering, Web Technologies, Machine Learning, Cloud Computing, and Capstone Project.",
+    "career_pathways": "Software Engineer, Full-Stack Developer, Cloud Architect, Systems Analyst, Database Administrator, DevOps Engineer, Research Scientist in top tech firms.",
+    "source_url": "https://akashiet.com/computer-science/",
+    "source_type": "Official College Portal",
+    "academic_year": "2025-2026",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "course_aiml",
+    "course_name": "Bachelor of Engineering in Computer Science (Artificial Intelligence & Machine Learning)",
+    "short_name": "BE CSE (AI & ML)",
+    "level": "Undergraduate (UG)",
+    "duration": "4 Years (8 Semesters)",
+    "degree_awarded": "Bachelor of Engineering (B.E.)",
+    "affiliated_to": "Visvesvaraya Technological University (VTU), Belagavi",
+    "approved_by": "AICTE, New Delhi",
+    "department": "Department of Artificial Intelligence & Machine Learning",
+    "head_of_department": "Dr. Sridhar C S (Professor and Head)",
+    "eligibility": "Passed 10+2 / 2nd PUC examination with Physics and Mathematics as compulsory subjects, with Chemistry/Biotech/Biology/Computer Science as optional, securing at least 45% marks in aggregate (40% for SC/ST/OBC category candidates of Karnataka).",
+    "admission_routes": [
+      {
+        "route": "KCET (KEA)",
+        "code": "E300"
+      },
+      {
+        "route": "COMEDK UGET",
+        "code": "E005"
+      },
+      {
+        "route": "Management Quota",
+        "code": "AIET-Direct"
+      }
+    ],
+    "specialized_laboratories": [
+      "Artificial Intelligence & Machine Learning Lab",
+      "Deep Learning & Neural Networks Lab",
+      "Python & Data Analytics Lab",
+      "Natural Language Processing (NLP) Lab",
+      "Computer Vision & Robotics Lab"
+    ],
+    "curriculum_highlights": "Advanced study in Artificial Intelligence, Machine Learning algorithms, Deep Learning frameworks (TensorFlow, PyTorch), NLP, Computer Vision, Reinforcement Learning, Generative AI, and Ethics in AI.",
+    "career_pathways": "AI Engineer, Machine Learning Specialist, Data Scientist, Computer Vision Engineer, NLP Researcher, Robotics Software Engineer.",
+    "source_url": "https://akashiet.com/machine-learning/",
+    "source_type": "Official College Portal",
+    "academic_year": "2025-2026",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "course_aids",
+    "course_name": "Bachelor of Engineering in Artificial Intelligence and Data Science",
+    "short_name": "BE AI & DS",
+    "level": "Undergraduate (UG)",
+    "duration": "4 Years (8 Semesters)",
+    "degree_awarded": "Bachelor of Engineering (B.E.)",
+    "affiliated_to": "Visvesvaraya Technological University (VTU), Belagavi",
+    "approved_by": "AICTE, New Delhi",
+    "department": "Department of Artificial Intelligence & Data Science",
+    "head_of_department": "Mr. Anil Kumar Warad (Assistant Professor and Head)",
+    "eligibility": "Passed 10+2 / 2nd PUC with Physics & Mathematics as core subjects and minimum 45% marks in aggregate (40% for Karnataka reserved categories).",
+    "admission_routes": [
+      {
+        "route": "KCET (KEA)",
+        "code": "E300"
+      },
+      {
+        "route": "COMEDK UGET",
+        "code": "E005"
+      },
+      {
+        "route": "Management Quota",
+        "code": "AIET-Direct"
+      }
+    ],
+    "specialized_laboratories": [
+      "Data Science & Statistical Modeling Lab",
+      "Big Data Technologies (Hadoop/Spark) Lab",
+      "Business Intelligence & Tableau/PowerBI Lab",
+      "Machine Learning Applications Lab"
+    ],
+    "curriculum_highlights": "Integrates core AI methodologies with statistical data science, big data analytics, data visualization, predictive analytics, cloud data engineering, and data mining.",
+    "career_pathways": "Data Scientist, Business Intelligence Analyst, Big Data Engineer, Quantitative Analyst, AI Product Developer.",
+    "source_url": "https://akashiet.com/artificial-intelligence/",
+    "source_type": "Official College Portal",
+    "academic_year": "2025-2026",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "course_ise",
+    "course_name": "Bachelor of Engineering in Information Science and Engineering",
+    "short_name": "BE ISE",
+    "level": "Undergraduate (UG)",
+    "duration": "4 Years (8 Semesters)",
+    "degree_awarded": "Bachelor of Engineering (B.E.)",
+    "affiliated_to": "Visvesvaraya Technological University (VTU), Belagavi",
+    "approved_by": "AICTE, New Delhi",
+    "department": "Department of Information Science & Engineering",
+    "head_of_department": "Mrs. Roopa G (Assistant Professor and Head)",
+    "eligibility": "Passed 10+2 / 2nd PUC with 45% aggregate in Physics, Mathematics and one optional subject (40% for SC/ST/OBC).",
+    "admission_routes": [
+      {
+        "route": "KCET (KEA)",
+        "code": "E300"
+      },
+      {
+        "route": "COMEDK UGET",
+        "code": "E005"
+      },
+      {
+        "route": "Management Quota",
+        "code": "AIET-Direct"
+      }
+    ],
+    "specialized_laboratories": [
+      "Information Systems & Web Architecture Lab",
+      "Software Testing & Quality Assurance Lab",
+      "Information Security Lab",
+      "Database & Enterprise Systems Lab"
+    ],
+    "curriculum_highlights": "Information theory, Software Engineering, Mobile Application Development, Web Services, Cloud Computing, Database Administration, and Enterprise IT Systems.",
+    "career_pathways": "Information Architect, IT Consultant, Systems Software Engineer, Web Applications Specialist, Enterprise IT Manager.",
+    "source_url": "https://akashiet.com/be-information-science-and-engineering/",
+    "source_type": "Official College Portal",
+    "academic_year": "2025-2026",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "course_cyber",
+    "course_name": "Bachelor of Engineering in Computer Science Engineering (Cyber Security)",
+    "short_name": "BE CSE (Cyber Security)",
+    "level": "Undergraduate (UG)",
+    "duration": "4 Years (8 Semesters)",
+    "degree_awarded": "Bachelor of Engineering (B.E.)",
+    "affiliated_to": "Visvesvaraya Technological University (VTU), Belagavi",
+    "approved_by": "AICTE, New Delhi",
+    "department": "Department of Computer Science Engineering (Cybersecurity)",
+    "head_of_department": "Mrs. Nagamma (Assistant Professor and Head)",
+    "eligibility": "10+2 / 2nd PUC with Physics & Mathematics plus optional technical subject, at least 45% marks (40% for SC/ST/OBC).",
+    "admission_routes": [
+      {
+        "route": "KCET (KEA)",
+        "code": "E300"
+      },
+      {
+        "route": "COMEDK UGET",
+        "code": "E005"
+      },
+      {
+        "route": "Management Quota",
+        "code": "AIET-Direct"
+      }
+    ],
+    "specialized_laboratories": [
+      "Cyber Defense & Ethical Hacking Lab",
+      "Network Security & Penetration Testing Lab",
+      "Digital Forensics & Incident Response Lab",
+      "Cryptography & Blockchain Lab"
+    ],
+    "curriculum_highlights": "Network Security, Ethical Hacking, Cryptography, Secure Coding, Cyber Forensics, Threat Intelligence, Information Security Management, and Cloud Security.",
+    "career_pathways": "Cyber Security Analyst, Information Security Specialist, Ethical Hacker / Penetration Tester, Security Operations Center (SOC) Analyst, Cryptographer.",
+    "source_url": "https://akashiet.com/be-computer-science/",
+    "source_type": "Official College Portal",
+    "academic_year": "2025-2026",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "course_ds",
+    "course_name": "Bachelor of Engineering in Computer Science Engineering (Data Science)",
+    "short_name": "BE CSE (Data Science)",
+    "level": "Undergraduate (UG)",
+    "duration": "4 Years (8 Semesters)",
+    "degree_awarded": "Bachelor of Engineering (B.E.)",
+    "affiliated_to": "Visvesvaraya Technological University (VTU), Belagavi",
+    "approved_by": "AICTE, New Delhi",
+    "department": "Department of Computer Science Engineering (Data Science)",
+    "head_of_department": "Mr. Praveen P (Assistant Professor and Head)",
+    "eligibility": "10+2 / 2nd PUC with Physics & Mathematics, minimum 45% marks in aggregate (40% for reserved categories of Karnataka).",
+    "admission_routes": [
+      {
+        "route": "KCET (KEA)",
+        "code": "E300"
+      },
+      {
+        "route": "COMEDK UGET",
+        "code": "E005"
+      },
+      {
+        "route": "Management Quota",
+        "code": "AIET-Direct"
+      }
+    ],
+    "specialized_laboratories": [
+      "Data Analytics & Computational Statistics Lab",
+      "Big Data Engineering Lab",
+      "Data Mining & Machine Intelligence Lab"
+    ],
+    "curriculum_highlights": "Combines fundamental computer science with deep focus on data engineering, statistics, distributed computing, data warehousing, and business intelligence.",
+    "career_pathways": "Data Engineer, Analytics Consultant, Big Data Architect, Business Intelligence Developer.",
+    "source_url": "https://akashiet.com/be-computer-data-science/",
+    "source_type": "Official College Portal",
+    "academic_year": "2025-2026",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "course_ece",
+    "course_name": "Bachelor of Engineering in Electronics and Communication Engineering",
+    "short_name": "BE ECE",
+    "level": "Undergraduate (UG)",
+    "duration": "4 Years (8 Semesters)",
+    "degree_awarded": "Bachelor of Engineering (B.E.)",
+    "affiliated_to": "Visvesvaraya Technological University (VTU), Belagavi",
+    "approved_by": "AICTE, New Delhi",
+    "department": "Department of Electronics & Communication",
+    "head_of_department": "Dr. Rajkumar V (Associate Professor and HOD)",
+    "eligibility": "10+2 / 2nd PUC with Physics & Mathematics, at least 45% aggregate (40% for SC/ST/OBC).",
+    "admission_routes": [
+      {
+        "route": "KCET (KEA)",
+        "code": "E300"
+      },
+      {
+        "route": "COMEDK UGET",
+        "code": "E005"
+      },
+      {
+        "route": "Management Quota",
+        "code": "AIET-Direct"
+      }
+    ],
+    "specialized_laboratories": [
+      "Analog & Digital Electronics Laboratory",
+      "VLSI Design & Verilog HDL Laboratory",
+      "Digital Signal Processing (DSP) Laboratory",
+      "Microcontroller & Embedded Systems Laboratory",
+      "Microwave & Optical Communication Laboratory"
+    ],
+    "curriculum_highlights": "Electronic devices, signals and systems, microcontrollers, VLSI circuits, embedded IoT systems, digital communication, antenna design, wireless networks, and robotics.",
+    "career_pathways": "VLSI Design Engineer, Embedded Systems Developer, Telecommunications Specialist, Hardware Design Engineer, IoT Solutions Architect.",
+    "source_url": "https://akashiet.com/be-electronics-and-communication-engineering/",
+    "source_type": "Official College Portal",
+    "academic_year": "2025-2026",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "course_me",
+    "course_name": "Bachelor of Engineering in Mechanical Engineering",
+    "short_name": "BE ME",
+    "level": "Undergraduate (UG)",
+    "duration": "4 Years (8 Semesters)",
+    "degree_awarded": "Bachelor of Engineering (B.E.)",
+    "affiliated_to": "Visvesvaraya Technological University (VTU), Belagavi",
+    "approved_by": "AICTE, New Delhi",
+    "department": "Department of Mechanical Engineering",
+    "head_of_department": "Dr. Pranesh K G (Associate Professor and Head)",
+    "eligibility": "10+2 / 2nd PUC with Physics & Mathematics, minimum 45% marks in aggregate (40% for SC/ST/OBC of Karnataka).",
+    "admission_routes": [
+      {
+        "route": "KCET (KEA)",
+        "code": "E300"
+      },
+      {
+        "route": "COMEDK UGET",
+        "code": "E005"
+      },
+      {
+        "route": "Management Quota",
+        "code": "AIET-Direct"
+      }
+    ],
+    "specialized_laboratories": [
+      "Computer Aided Design & Manufacturing (CAD/CAM) Lab",
+      "Fluid Mechanics & Hydraulic Machinery Lab",
+      "Heat Transfer Laboratory",
+      "Material Testing & Metallography Lab",
+      "Foundry, Forging & Welding Workshop",
+      "Machine Shop & CNC Machining Center"
+    ],
+    "curriculum_highlights": "Thermodynamics, mechanics of materials, manufacturing technology, fluid machinery, CAD/CAM/CAE, mechatronics, automotive engineering, thermal engineering, and renewable energy.",
+    "career_pathways": "Mechanical Design Engineer, Production & Quality Engineer, Automotive Engineer, Thermal Power Specialist, Robotics & Automation Engineer.",
+    "source_url": "https://akashiet.com/be-mechanical-engineering/",
+    "source_type": "Official College Portal",
+    "academic_year": "2025-2026",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "course_mba",
+    "course_name": "Master of Business Administration",
+    "short_name": "MBA",
+    "level": "Postgraduate (PG)",
+    "duration": "2 Years (4 Semesters)",
+    "degree_awarded": "Master of Business Administration (MBA)",
+    "affiliated_to": "Visvesvaraya Technological University (VTU), Belagavi",
+    "approved_by": "AICTE, New Delhi",
+    "department": "Department of Management Studies",
+    "head_of_department": "Dr. Sri Hari V (Associate Professor and Head)",
+    "eligibility": "Passed Bachelor\u2019s degree of minimum 3 years duration with at least 50% marks in aggregate (45% for Karnataka SC/ST/Cat-1 candidates).",
+    "admission_routes": [
+      {
+        "route": "KEA - PGCET",
+        "code": "B097",
+        "description": "Karnataka Post Graduate Common Entrance Test"
+      },
+      {
+        "route": "KMAT / CMAT / MAT / CAT",
+        "code": "Management",
+        "description": "National and state management entrance tests for direct admission"
+      }
+    ],
+    "specializations": [
+      "Finance",
+      "Marketing",
+      "Human Resource Management (HR)",
+      "Business Analytics",
+      "Supply Chain & Operations"
+    ],
+    "curriculum_highlights": "Managerial Economics, Organizational Behavior, Financial Management, Marketing Strategy, Corporate Governance, Business Analytics, and Corporate Internship.",
+    "career_pathways": "Business Consultant, Financial Analyst, Marketing Manager, HR Business Partner, Operations Manager, Product Manager.",
+    "source_url": "https://akashiet.com/mba/",
+    "source_type": "Official College Portal",
+    "academic_year": "2025-2026",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "course_mca",
+    "course_name": "Master of Computer Applications",
+    "short_name": "MCA",
+    "level": "Postgraduate (PG)",
+    "duration": "2 Years (4 Semesters)",
+    "degree_awarded": "Master of Computer Applications (MCA)",
+    "affiliated_to": "Visvesvaraya Technological University (VTU), Belagavi",
+    "approved_by": "AICTE, New Delhi",
+    "department": "Department of Master of Computer Applications (MCA)",
+    "head_of_department": "Mr. Madhu N (Assistant Professor and Head)",
+    "eligibility": "Passed BCA / Bachelor Degree in Computer Science Engineering or equivalent Degree OR passed B.Sc./ B.Com./ B.A. with Mathematics at 10+2 level or at Graduation level, with at least 50% marks (45% for reserved category).",
+    "admission_routes": [
+      {
+        "route": "KEA - PGCET",
+        "code": "C550",
+        "description": "Karnataka Post Graduate Common Entrance Test for MCA"
+      },
+      {
+        "route": "KMAT / Direct",
+        "code": "Management",
+        "description": "Management entrance route"
+      }
+    ],
+    "specialized_laboratories": [
+      "Advanced Java & Cloud Computing Lab",
+      "Full Stack Web Development Lab",
+      "Database Systems & Data Analytics Lab"
+    ],
+    "curriculum_highlights": "Object Oriented Programming, Advanced Web Technologies, Database Systems, Cloud Computing, Mobile Computing, Machine Learning, and Enterprise Project Work.",
+    "career_pathways": "Software Developer, Systems Analyst, Database Administrator, Web Architect, Cloud Application Developer.",
+    "source_url": "https://akashiet.com/mca/",
+    "source_type": "Official College Portal",
+    "academic_year": "2025-2026",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "course_lateral",
+    "course_name": "B.E. Lateral Entry (Direct 2nd Year / 3rd Semester)",
+    "short_name": "BE Lateral Entry",
+    "level": "Undergraduate (UG)",
+    "duration": "3 Years (6 Semesters)",
+    "degree_awarded": "Bachelor of Engineering (B.E.)",
+    "affiliated_to": "Visvesvaraya Technological University (VTU), Belagavi",
+    "approved_by": "AICTE, New Delhi",
+    "eligibility": "Passed minimum 3-year Diploma in appropriate branch of Engineering / Technology with at least 45% marks (40% for Karnataka SC/ST/OBC), or passed B.Sc. Degree from a recognized University with Mathematics at 10+2 level and minimum 45% marks.",
+    "admission_routes": [
+      {
+        "route": "KEA - DCET",
+        "code": "DCET Quota",
+        "description": "Diploma Common Entrance Test conducted by Karnataka Examination Authority"
+      },
+      {
+        "route": "Management Lateral Entry",
+        "code": "AIET-Direct",
+        "description": "Direct institutional lateral entry"
+      }
+    ],
+    "source_url": "https://akashiet.com/",
+    "source_type": "Official College Portal",
+    "academic_year": "2025-2026",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  }
+]

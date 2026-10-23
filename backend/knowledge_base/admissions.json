@@ -1,0 +1,48 @@
+[
+  {
+    "id": "adm_overview",
+    "category": "Admissions",
+    "title": "Engineering & Postgraduate Admissions at AIET",
+    "description": "Admissions to Akash Institute of Engineering & Technology are open for Karnataka and Non-Karnataka students across B.E., B.E. Lateral Entry, MBA, and MCA programmes.",
+    "intake_codes": {
+      "KCET_Code": "E300 (Akash Institute of Engineering and Technology, Devanahalli)",
+      "COMEDK_Code": "E005",
+      "PGCET_MBA_Code": "B097",
+      "PGCET_MCA_Code": "C550"
+    },
+    "btech_eligibility": "Passed 10+2 / 2nd PUC examination with Physics and Mathematics as compulsory subjects, plus Chemistry/Biology/Biotech/Computer Science, securing minimum 45% aggregate marks (40% for SC/ST and OBC of Karnataka).",
+    "admission_steps": [
+      "Step 1: Check eligibility criteria for the desired engineering or PG program.",
+      "Step 2: Appear for entrance exam (KCET for Karnataka quota, COMEDK for all-India merit, PGCET for MBA/MCA, or apply for Management quota).",
+      "Step 3: Participate in KEA / COMEDK counselling and choose AIET (KCET: E300, COMEDK: E005).",
+      "Step 4: For Management quota, fill out the online application at admissions.akashinstitutions.com or visit campus admissions office.",
+      "Step 5: Verify original documents and complete seat confirmation."
+    ],
+    "mandatory_documents": [
+      "10th Standard / SSLC Marks Card (proof of date of birth)",
+      "12th Standard / 2nd PUC Marks Card",
+      "Transfer Certificate (TC) from previous institution",
+      "Migration Certificate (for Non-Karnataka / CBSE / ICSE boards)",
+      "Conduct / Character Certificate",
+      "Caste and Income Certificate (if claiming reservation in Karnataka)",
+      "Karnataka Study Certificate (7 years study proof for KCET quota)",
+      "Entrance Exam Rank Card / Allotment Letter (KCET / COMEDK / PGCET)",
+      "Copy of Student Aadhaar Card",
+      "Recent passport-size photographs (6 copies)"
+    ],
+    "contact_info": {
+      "admissions_office": "Akash Institute of Engineering & Technology, Prasannahalli Road, Devanahalli, Bengaluru - 562110",
+      "phone_numbers": [
+        "+91 9513107575",
+        "+91 9513597575"
+      ],
+      "landline": "080-244-11-222",
+      "email": "admissions@akashinstitutions.com",
+      "website": "https://admissions.akashinstitutions.com/engineering"
+    },
+    "source_url": "https://admissions.akashinstitutions.com/engineering",
+    "source_type": "Official Admissions Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  }
+]

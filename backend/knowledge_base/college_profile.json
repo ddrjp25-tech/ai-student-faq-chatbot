@@ -1,0 +1,64 @@
+{
+  "category": "College Profile",
+  "title": "Akash Institute of Engineering and Technology (AIET) - Complete Institutional Profile",
+  "institution_name": "Akash Institute of Engineering and Technology",
+  "short_name": "AIET",
+  "parent_trust": "Akash Education & Development Trust (AEDT)",
+  "parent_group": "Akash Group of Institutions (AGI)",
+  "established_year": 2020,
+  "location": {
+    "address": "Prasannahalli Road, Devanahalli, near Kempegowda International Airport",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "pincode": "562110",
+    "country": "India",
+    "landmarks": "Near Kempegowda International Airport (BLR), off NH-44 Bellary Road, Devanahalli"
+  },
+  "timings": {
+    "regular_college_timings": "Monday to Friday: 9:00 AM to 4:00 PM; Saturday: 9:00 AM to 1:00 PM",
+    "working_days": "Monday to Saturday (as per VTU Academic Calendar)",
+    "office_hours": "Monday to Friday: 3:00 PM to 5:00 PM; Saturday: 1:00 PM to 3:00 PM"
+  },
+  "codes": {
+    "kcet_code": "E300",
+    "comedk_code": "E005",
+    "pgcet_mba_code": "B097",
+    "pgcet_mca_code": "C550"
+  },
+  "affiliation_and_approvals": {
+    "university_affiliation": "Visvesvaraya Technological University (VTU), Belagavi",
+    "aicte_approval": "Approved by All India Council for Technical Education (AICTE), New Delhi",
+    "state_government_recognition": "Recognized by the Government of Karnataka"
+  },
+  "contact": {
+    "admissions_hotline": "+91 9513107575",
+    "admissions_alt_phone": "+91 9513597575",
+    "central_landline": "080-244-11-222",
+    "admissions_email": "admissions@akashinstitutions.com",
+    "placement_email": "sindhu.placement@akashinstitutions.com",
+    "official_website": "https://akashiet.com/",
+    "group_website": "https://www.akashinstitutions.com/"
+  },
+  "vision": "To emerge as a premier centre of excellence in engineering education and research, empowering young minds with technical competence, innovation, leadership, and ethical values to meet global societal challenges.",
+  "mission": [
+    "Deliver quality technical education through state-of-the-art curriculum, modern laboratories, and experiential learning.",
+    "Foster research, innovation, entrepreneurship, and interdisciplinary collaborations with leading industries and global universities.",
+    "Inculcate ethical standards, environmental consciousness, and leadership skills for holistic student development."
+  ],
+  "highlights": [
+    "Sprawling green campus in Devanahalli near Bangalore International Airport",
+    "Affiliated to Visvesvaraya Technological University (VTU), Belagavi and approved by AICTE",
+    "State-of-the-art computer labs, electronics labs, and mechanical workshops",
+    "Wi-Fi enabled campus with separate secure hostels for boys (400 beds) and girls (700 beds)",
+    "1,500-seat modern auditorium and extensive sports grounds",
+    "On-campus multi-specialty Akash Hospital with 24/7 medical & ambulance support",
+    "Partnership with 'Nestling' via VTU linking with 3,500 partner universities across 29 countries",
+    "Active Placement & Career Development Cell with top industry recruitment drives"
+  ],
+  "source_url": "https://akashiet.com/about-us/",
+  "source_type": "Official College Portal",
+  "academic_year": "2025-2026",
+  "published_date": "2026-01-01",
+  "last_verified_date": "2026-03-15",
+  "verification_status": "VERIFIED_OFFICIAL"
+}

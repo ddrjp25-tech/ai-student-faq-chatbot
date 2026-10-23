@@ -1,0 +1,95 @@
+[
+  {
+    "id": "sch_aet",
+    "category": "Scholarships",
+    "scheme_name": "Akash Entrance Test (AET) Institutional Scholarships",
+    "offered_by": "Akash Group of Institutions / Akash Education & Development Trust",
+    "eligibility_criteria": "Students with outstanding academic performance in their 10+2 / 2nd PUC qualifying exams who participate in the Akash Entrance Test (AET).",
+    "benefit": "Merit-based tuition fee concessions and institutional scholarships awarded for qualifying scores in AET.",
+    "application_mode": "Conducted annually prior to the start of the academic year by Akash Group of Institutions.",
+    "contact": "admissions@akashinstitutions.com / +91 9513107575",
+    "source_url": "https://www.akashinstitutions.com/scholarships/",
+    "source_type": "Official Scholarship Records",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "sch_inst_awards",
+    "category": "Scholarships",
+    "scheme_name": "AGI Institutional Awards of Excellence",
+    "offered_by": "Akash Group of Institutions",
+    "eligibility_criteria": "Award of Excellence presented to academic achievers and department toppers each academic year. Also honors extraordinary achievements in sports, cultural activities, and state/national recognitions.",
+    "benefit": "Certificate of merit, cash awards, and tuition concessions.",
+    "source_url": "https://www.akashinstitutions.com/scholarships/",
+    "source_type": "Official Scholarship Records",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "sch_ssp_karnataka",
+    "category": "Scholarships",
+    "scheme_name": "Karnataka State Scholarship Portal (SSP) - Post Matric Scholarships",
+    "offered_by": "Government of Karnataka",
+    "applicable_to": "Eligible Karnataka domicile students belonging to SC, ST, and Backward Classes (OBC Cat-1, 2A, 2B, 3A, 3B).",
+    "benefits": "Tuition fee reimbursement, maintenance allowances, and Vidyasiri food & accommodation assistance as per state government norms.",
+    "application_portal": "https://ssp.postmatric.karnataka.gov.in/",
+    "required_documents": [
+      "Student Aadhaar Card & linked bank account",
+      "College Registration / USN Number",
+      "Caste and Income Certificate (RD Number)",
+      "10th & 12th Marks Cards",
+      "Fee Receipt & College Bonafide Certificate"
+    ],
+    "important_note": "Scholarship is disbursed directly by the Government of Karnataka into the student's Aadhaar-seeded bank account via DBT upon successful verification. AIET provides full documentation support through its scholarship desk.",
+    "source_url": "https://www.akashinstitutions.com/scholarships/",
+    "source_type": "Government Portal & Institutional Guide",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "sch_nsp_central",
+    "category": "Scholarships",
+    "scheme_name": "National Scholarship Portal (NSP) - Central Sector Schemes",
+    "offered_by": "Government of India (Ministry of Education & Ministry of Minority Affairs)",
+    "applicable_to": "Meritorious students from low-income families and recognized minority communities (Muslim, Christian, Sikh, Buddhist, Jain, Parsi) enrolled in technical degree programs.",
+    "schemes_included": [
+      "Central Sector Scheme of Scholarships for College and University Students",
+      "Merit-cum-Means Scholarship for Professional and Technical Courses CS (Minorities)",
+      "Post-Matric Scholarship for Students with Disabilities"
+    ],
+    "application_portal": "https://scholarships.gov.in/",
+    "income_limit": "Generally annual parental income <= \u20b92.5 Lakhs (MCM) or <= \u20b94.5 Lakhs (Central Sector).",
+    "source_url": "https://www.akashinstitutions.com/scholarships/",
+    "source_type": "Government Portal & Institutional Guide",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "sch_aicte_pragati",
+    "category": "Scholarships",
+    "scheme_name": "AICTE Pragati Scholarship for Girl Students",
+    "offered_by": "All India Council for Technical Education (AICTE), New Delhi",
+    "applicable_to": "Female students admitted to 1st year of B.E. degree or 2nd year (lateral entry) in AICTE-approved institutions (maximum two girls per family).",
+    "benefit_amount": "\u20b950,000 per annum for every year of study towards college fees, computer, books, and living expenses.",
+    "income_limit": "Family income must not exceed \u20b98.00 Lakhs per annum.",
+    "portal": "National Scholarship Portal (NSP) / AICTE Portal",
+    "source_url": "https://www.akashinstitutions.com/scholarships/",
+    "source_type": "AICTE Official Directive",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "sch_aicte_saksham",
+    "category": "Scholarships",
+    "scheme_name": "AICTE Saksham Scholarship for Specially-Abled Students",
+    "offered_by": "All India Council for Technical Education (AICTE), New Delhi",
+    "applicable_to": "Specially-abled students having disability of not less than 40% admitted to 1st year B.E. or 2nd year lateral entry in AICTE approved college.",
+    "benefit_amount": "\u20b950,000 per annum for tuition, equipment, and learning aids.",
+    "income_limit": "Family income must not exceed \u20b98.00 Lakhs per annum.",
+    "portal": "National Scholarship Portal (NSP) / AICTE Portal",
+    "source_url": "https://www.akashinstitutions.com/scholarships/",
+    "source_type": "AICTE Official Directive",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  }
+]

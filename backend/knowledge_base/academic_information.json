@@ -1,0 +1,67 @@
+[
+  {
+    "id": "acad_curriculum_vtu",
+    "category": "Academic Information",
+    "title": "VTU Academic Curriculum & Grading System",
+    "description": "AIET strictly follows the Choice-Based Credit System (CBCS) and Outcome-Based Education (OBE) model prescribed by Visvesvaraya Technological University (VTU), Belagavi. The curriculum is divided into 8 semesters for B.E. and 4 semesters for MBA/MCA.",
+    "attendance_policy": "Minimum 85% attendance is mandatory in each theory and laboratory course as per college rules and VTU regulations.",
+    "evaluation_system": "Continuous Internal Evaluation (CIE) carrying 50% weightage (internal tests, assignments, lab work) and Semester End Examination (SEE) carrying 50% weightage conducted by VTU.",
+    "source_url": "https://vtu.ac.in/",
+    "source_type": "University Affiliation Regulations",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "acad_college_timings",
+    "category": "Academic Information",
+    "title": "Official College Timings & Office Hours",
+    "regular_timing": "Monday to Friday: 9:00 AM to 4:00 PM; Saturday: 9:00 AM to 1:00 PM",
+    "office_timing": "Monday to Friday: 3:00 PM to 5:00 PM; Saturday: 1:00 PM to 3:00 PM",
+    "description": "College timing is from 9:00 AM to 4:00 PM from Monday to Friday and 9:00 AM to 1:00 PM on Saturday. Office timing is from 3:00 PM to 5:00 PM Monday to Friday and 1:00 PM to 3:00 PM on Saturday.",
+    "source_url": "https://akashiet.com/",
+    "source_type": "Official Institutional Record",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "acad_college_rules",
+    "category": "Academic Information",
+    "title": "College Rules, Dress Code & Code of Conduct",
+    "rules_list": [
+      "Wear full uniform with shoes",
+      "Should maintain professional attire",
+      "Hair and beard should be properly trimmed",
+      "Cargos, jeans, tshirt, chappals, crocs are not allowed inside campus",
+      "Should wear ID card",
+      "Without following these rules you might not be permitted inside the campus premises",
+      "Maintain 85% attendance compulsory in all classes and labs"
+    ],
+    "description": "Official AIET College Rules & Code of Conduct: 1. Wear full uniform with shoes. 2. Should maintain professional attire. 3. Hair and beard should be properly trimmed. 4. Cargos, jeans, tshirt, chappals, crocs are not allowed inside campus. 5. Should wear ID card. 6. Without following these rules you might not be permitted inside the campus premises. 7. Maintain 85% attendance compulsory across all theory classes and labs.",
+    "source_url": "https://akashiet.com/",
+    "source_type": "Official Institutional Record",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "acad_placement_training",
+    "category": "Academic Information",
+    "title": "Placement Cell & Career Development",
+    "description": "The Placement and Training Cell at AIET provides comprehensive pre-placement training starting from early semesters. Training includes quantitative aptitude, logical reasoning, verbal ability, coding bootcamps (Data Structures, Python, Java, C++), soft skills, resume building, and mock interviews.",
+    "global_collaborations": "AIET has partnered with 'Nestling' via VTU, facilitating international internships, study abroad semesters at partnered universities, final-year degrees abroad, and international placement support across 3,500 partner universities in 29 countries including USA, UK, Canada, Australia, and Europe.",
+    "placement_contact": "sindhu.placement@akashinstitutions.com",
+    "source_url": "https://akashiet.com/about-us/",
+    "source_type": "Official College Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "acad_anti_ragging",
+    "category": "Academic Information",
+    "title": "Anti-Ragging Policy & Student Safety",
+    "description": "AIET enforces a strict zero-tolerance policy against ragging in accordance with Supreme Court directives, AICTE norms, and VTU regulations. An active Anti-Ragging Committee and Squad monitor campus and hostel premises 24/7. Student Grievance Redressal Cell and Internal Complaints Committee (ICC) ensure safety and inclusivity for all students.",
+    "source_url": "https://akashiet.com/",
+    "source_type": "Official College Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  }
+]

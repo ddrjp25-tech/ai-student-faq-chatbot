@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIET Voice Assistant & College Chatbot | Akash Institute of Engineering and Technology</title>
+  <meta name="description" content="Official AI-powered Voice Assistant and Knowledge Base for Akash Institute of Engineering and Technology (AIET), Devanahalli, Bengaluru. Ask questions about B.E. courses, fees, faculty, scholarships, timings, and campus facilities.">
+  <meta name="keywords" content="AIET, Akash Institute of Engineering and Technology, Devanahalli, Bengaluru, VTU, AICTE, KCET E300, COMEDK E005, Voice Assistant, College Chatbot, Engineering Admissions">
+  <link rel="icon" type="image/svg+xml" href="/static/assets/logo.svg">
+
+  <!-- Google Fonts: Outfit & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <div class="app-container">
+
+    <!-- Top Navigation Header -->
+    <header class="app-header">
+      <div class="brand-wrapper" onclick="location.reload()">
+        <img src="/static/assets/logo.svg" alt="AIET Official Logo" class="brand-logo-img">
+        <div class="brand-title-group">
+          <div class="brand-name">
+            Akash Institute of Engineering & Technology
+            <span class="brand-tag">AI Assistant</span>
+          </div>
+          <div class="brand-subtitle">Affiliated to VTU Belagavi • Approved by AICTE • Devanahalli, Bengaluru</div>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <div class="status-badge" id="systemStatusBadge" title="ChromaDB Vector Retrieval Status">
+          <span class="status-dot"></span>
+          AIET Knowledge Active
+        </div>
+
+        <button class="header-btn" id="voiceToggleBtn" title="Toggle audio spoken answers on or off">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+          Voice Output
+        </button>
+      </div>
+    </header>
+
+    <!-- Navigation Bar Tabs -->
+    <nav class="nav-tabs-wrapper">
+      <ul class="nav-tabs" id="mainNavTabs">
+        <li>
+          <button class="nav-tab-btn active" data-tab="assistant-tab" id="navAssistant">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
+            Voice Assistant
+          </button>
+        </li>
+        <li>
+          <button class="nav-tab-btn" data-tab="courses-tab" id="navCourses">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><polyline points="10 2 10 10 13 7 16 10 16 2"/></svg>
+            Courses & Departments
+          </button>
+        </li>
+        <li>
+          <button class="nav-tab-btn" data-tab="faculty-tab" id="navFaculty">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            Faculty Directory
+          </button>
+        </li>
+        <li>
+          <button class="nav-tab-btn" data-tab="fees-tab" id="navFees">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+            Fees & Expenses
+          </button>
+        </li>
+        <li>
+          <button class="nav-tab-btn" data-tab="scholarships-tab" id="navScholarships">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+            Scholarships & Aid
+          </button>
+        </li>
+        <li>
+          <button class="nav-tab-btn" data-tab="infra-tab" id="navInfra">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            Campus Facilities
+          </button>
+        </li>
+        <li>
+          <button class="nav-tab-btn" data-tab="admissions-tab" id="navAdmissions">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            Admissions & Codes
+          </button>
+        </li>
+        <li>
+          <button class="nav-tab-btn" data-tab="admin-tab" id="navAdmin">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M9 17V7h4a3 3 0 0 1 0 6H9"/></svg>
+            Knowledge Admin
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main class="main-content">
+
+      <!-- ==========================================
+           TAB 1: VOICE ASSISTANT (HERO PRODUCT)
+           ========================================== -->
+      <section class="tab-panel active" id="assistant-tab">
+        <div class="assistant-layout">
+          
+          <!-- Chat Window Card -->
+          <div class="chat-card">
+            <div class="chat-card-header">
+              <div class="assistant-info">
+                <div class="assistant-avatar">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
+                  <span class="assistant-avatar-badge"></span>
+                </div>
+                <div>
+                  <h1 class="assistant-header-title">Meet AIET Voice Assistant</h1>
+                  <p class="assistant-header-status">Ask anything about Akash Institute of Engineering & Technology</p>
+                </div>
+              </div>
+
+              <div class="chat-controls">
+                <button class="header-btn" id="stopSpeakingBtn" style="display:none; color:#f87171; border-color:rgba(239,68,68,0.3);" title="Stop spoken output">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="6" width="12" height="12"/></svg>
+                  Stop Audio
+                </button>
+                <button class="icon-btn" id="clearChatBtn" title="Clear conversation history">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/></svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Message Thread -->
+            <div class="chat-messages" id="chatMessages">
+              <!-- Messages dynamically appended by app.js -->
+            </div>
+
+            <!-- Live Voice Transcription Banner -->
+            <div class="voice-live-banner" id="voiceLiveBanner">
+              <div class="voice-live-text">
+                <div class="voice-wave-anim">
+                  <div class="voice-wave-bar"></div>
+                  <div class="voice-wave-bar"></div>
+                  <div class="voice-wave-bar"></div>
+                  <div class="voice-wave-bar"></div>
+                  <div class="voice-wave-bar"></div>
+                </div>
+                <span id="voiceLiveText">Listening... Speak now.</span>
+              </div>
+              <span style="font-size:0.75rem; color:var(--text-dim);">Release mic or pause to send</span>
+            </div>
+
+            <!-- Chat Input Area -->
+            <div class="chat-input-area">
+              <button class="mic-hero-btn" id="micHeroBtn" title="Click to speak your question">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
+              </button>
+
+              <div class="chat-input-wrapper">
+                <input type="text" class="chat-text-input" id="chatTextInput" placeholder="Ask by speaking or typing here... (e.g. 'What are college timings?')" autocomplete="off">
+                <button class="chat-send-btn" id="chatSendBtn" title="Send question">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Assistant Sidebar -->
+          <aside class="assistant-sidebar">
+
+            <!-- Verified Key Facts -->
+            <div class="quick-facts-card">
+              <div class="card-title-bar">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                Verified AIET Facts
+              </div>
+              <div class="quick-facts-list">
+                <div class="fact-item">
+                  <div class="fact-icon">🕒</div>
+                  <div class="fact-content">
+                    <span class="fact-label">College Timings</span>
+                    <span class="fact-value">Mon-Fri: 9 AM - 4 PM | Sat: 9 AM - 1 PM</span>
+                  </div>
+                </div>
+                <div class="fact-item">
+                  <div class="fact-icon">🏢</div>
+                  <div class="fact-content">
+                    <span class="fact-label">Office Timings</span>
+                    <span class="fact-value">Mon-Fri: 3 PM - 5 PM | Sat: 1 PM - 3 PM</span>
+                  </div>
+                </div>
+                <div class="fact-item">
+                  <div class="fact-icon">📌</div>
+                  <div class="fact-content">
+                    <span class="fact-label">Campus Floor Directory</span>
+                    <span class="fact-value">1st Fl: Library, CS Labs | GF: Principal, Chem Lab | 4th Fl: Physics Lab</span>
+                  </div>
+                </div>
+                <div class="fact-item">
+                  <div class="fact-icon">📋</div>
+                  <div class="fact-content">
+                    <span class="fact-label">College Rules</span>
+                    <span class="fact-value">Full Uniform, Shoes & ID Card Mandatory</span>
+                  </div>
+                </div>
+                <div class="fact-item">
+                  <div class="fact-icon">🎯</div>
+                  <div class="fact-content">
+                    <span class="fact-label">KCET College Code</span>
+                    <span class="fact-value">E300 (KEA Engineering)</span>
+                  </div>
+                </div>
+                <div class="fact-item">
+                  <div class="fact-icon">🏷️</div>
+                  <div class="fact-content">
+                    <span class="fact-label">COMEDK Code</span>
+                    <span class="fact-value">E005 (UGET Engineering)</span>
+                  </div>
+                </div>
+                <div class="fact-item">
+                  <div class="fact-icon">🎓</div>
+                  <div class="fact-content">
+                    <span class="fact-label">PGCET Codes</span>
+                    <span class="fact-value">MBA: B097 | MCA: C550</span>
+                  </div>
+                </div>
+                <div class="fact-item">
+                  <div class="fact-icon">📍</div>
+                  <div class="fact-content">
+                    <span class="fact-label">Location</span>
+                    <span class="fact-value">Devanahalli, Bengaluru</span>
+                  </div>
+                </div>
+                <div class="fact-item">
+                  <div class="fact-icon">📞</div>
+                  <div class="fact-content">
+                    <span class="fact-label">Admissions Hotline</span>
+                    <span class="fact-value">+91 9513107575</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Suggested Quick Questions -->
+            <div class="suggested-card">
+              <div class="card-title-bar">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                Popular Questions
+              </div>
+              <div class="suggested-questions-list">
+                <button class="suggested-btn" data-question="What are the college rules?">
+                  What are the college rules? <span>→</span>
+                </button>
+                <button class="suggested-btn" data-question="What are the college timings?">
+                  What are the college timings? <span>→</span>
+                </button>
+                <button class="suggested-btn" data-question="Where is the library located?">
+                  Where is the library located? <span>→</span>
+                </button>
+                <button class="suggested-btn" data-question="Where are the labs located?">
+                  Where are the labs located? <span>→</span>
+                </button>
+                <button class="suggested-btn" data-question="What are the office timings?">
+                  What are the office timings? <span>→</span>
+                </button>
+                <button class="suggested-btn" data-question="What courses does AIET offer?">
+                  What courses does AIET offer? <span>→</span>
+                </button>
+                <button class="suggested-btn" data-question="What is the fee for AI and Data Science?">
+                  What is the fee for AI & Data Science? <span>→</span>
+                </button>
+                <button class="suggested-btn" data-question="Who is the HOD of AI and Data Science?">
+                  Who is the HOD of AI & Data Science? <span>→</span>
+                </button>
+                <button class="suggested-btn" data-question="Does AIET have hostel facilities?">
+                  Does AIET have hostel facilities? <span>→</span>
+                </button>
+                <button class="suggested-btn" data-question="Where is the college located?">
+                  Where is the college located? <span>→</span>
+                </button>
+                <button class="suggested-btn" data-question="How can I contact admissions?">
+                  How can I contact admissions? <span>→</span>
+                </button>
+              </div>
+            </div>
+
+          </aside>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           TAB 2: COURSES & DEPARTMENTS
+           ========================================== -->
+      <section class="tab-panel" id="courses-tab">
+        <div class="page-hero">
+          <h2 class="page-title">Engineering & Postgraduate Programmes</h2>
+          <p class="page-desc">Explore 8 Undergraduate Bachelor of Engineering programmes and 2 Postgraduate degrees affiliated to VTU Belagavi and approved by AICTE.</p>
+        </div>
+
+        <div class="filter-bar">
+          <div class="search-input-box">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            <input type="text" id="courseSearchInput" placeholder="Search by course name or department...">
+          </div>
+          <div class="filter-pills">
+            <button class="filter-pill active course-level-pill" data-level="ALL">All Programmes</button>
+            <button class="filter-pill course-level-pill" data-level="UNDERGRADUATE">B.E. Engineering</button>
+            <button class="filter-pill course-level-pill" data-level="POSTGRADUATE">PG (MBA & MCA)</button>
+          </div>
+        </div>
+
+        <div class="cards-grid" id="coursesGrid">
+          <!-- Populated dynamically by app.js -->
+        </div>
+      </section>
+
+      <!-- ==========================================
+           TAB 3: FACULTY DIRECTORY
+           ========================================== -->
+      <section class="tab-panel" id="faculty-tab">
+        <div class="page-hero">
+          <h2 class="page-title">Official AIET Faculty Directory</h2>
+          <p class="page-desc">46 distinguished faculty members across Computer Science, AI & ML, AI & DS, Cyber Security, Data Science, ISE, ECE, Mechanical, MBA, MCA, and Basic Sciences.</p>
+        </div>
+
+        <div class="filter-bar">
+          <div class="search-input-box">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            <input type="text" id="facultySearchInput" placeholder="Search faculty name or title...">
+          </div>
+          <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
+            <select class="form-control" id="facultyDeptSelect" style="width:260px; padding:7px 12px;">
+              <option value="">All Departments</option>
+            </select>
+            <label style="display:flex; align-items:center; gap:6px; font-size:0.85rem; color:var(--text-muted); cursor:pointer;">
+              <input type="checkbox" id="facultyHodCheckbox"> Only HODs
+            </label>
+          </div>
+        </div>
+
+        <div class="cards-grid" id="facultyGrid">
+          <!-- Populated dynamically by app.js -->
+        </div>
+      </section>
+
+      <!-- ==========================================
+           TAB 4: FEES & EXPENSES
+           ========================================== -->
+      <section class="tab-panel" id="fees-tab">
+        <div class="page-hero">
+          <h2 class="page-title">Fees & Expenses Policy</h2>
+          <p class="page-desc">Official guidelines for KCET Government Quota, COMEDK Quota, Management Quota, Hostel Accommodation, and Transport charges.</p>
+        </div>
+
+        <div style="background:rgba(245,158,11,0.12); border:1px solid rgba(245,158,11,0.35); border-radius:14px; padding:16px 20px; margin-bottom:24px; display:flex; gap:12px; align-items:center;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <div>
+            <strong style="color:#fef08a; font-size:0.95rem;">Official Fee Structure Notice:</strong>
+            <p style="font-size:0.85rem; color:#fde68a; margin-top:2px;">
+              Fee figures are subject to regulatory updates by KEA / Fee Regulatory Committee each academic year. The college never guarantees payable amounts without written confirmation from the admissions office.
+            </p>
+          </div>
+        </div>
+
+        <div class="cards-grid" id="feesGrid">
+          <!-- Populated dynamically by app.js -->
+        </div>
+      </section>
+
+      <!-- ==========================================
+           TAB 5: SCHOLARSHIPS
+           ========================================== -->
+      <section class="tab-panel" id="scholarships-tab">
+        <div class="page-hero">
+          <h2 class="page-title">Scholarships & Financial Assistance</h2>
+          <p class="page-desc">Karnataka State SSP, National NSP, AICTE Pragati for Girls, AICTE Saksham, and Akash Entrance Test (AET) Institutional Awards.</p>
+        </div>
+
+        <div class="cards-grid" id="scholarshipsGrid">
+          <!-- Populated dynamically by app.js -->
+        </div>
+      </section>
+
+      <!-- ==========================================
+           TAB 6: CAMPUS INFRASTRUCTURE
+           ========================================== -->
+      <section class="tab-panel" id="infra-tab">
+        <div class="page-hero">
+          <h2 class="page-title">Campus Infrastructure & Facilities</h2>
+          <p class="page-desc">Experience a world-class educational environment in Devanahalli with on-campus hospital, residential hostels, 1,500-seat auditorium, and digital libraries.</p>
+        </div>
+
+        <div class="cards-grid" id="infraGrid">
+          <!-- Populated dynamically by app.js -->
+        </div>
+      </section>
+
+      <!-- ==========================================
+           TAB 7: ADMISSIONS & CODES
+           ========================================== -->
+      <section class="tab-panel" id="admissions-tab">
+        <div class="page-hero">
+          <h2 class="page-title">Admissions & Entrance Codes</h2>
+          <p class="page-desc">Everything you need to apply for B.E., B.E. Lateral Entry, MBA, and MCA at Akash Institute of Engineering & Technology.</p>
+        </div>
+
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:24px;">
+          <!-- Codes Card -->
+          <div class="data-card">
+            <span class="card-badge" style="background:rgba(242,112,36,0.15); border-color:var(--aiet-orange); color:#fed7aa;">Official Admission Codes</span>
+            <h3 class="card-h3">Counselling & Option Entry Codes</h3>
+            <div style="display:flex; flex-direction:column; gap:12px; margin-top:12px;">
+              <div style="padding:12px; background:rgba(255,255,255,0.03); border-radius:8px; border:1px solid var(--border-glass);">
+                <div style="font-size:0.75rem; color:var(--text-dim); text-transform:uppercase;">KCET Code (KEA Engineering)</div>
+                <div style="font-size:1.3rem; font-weight:800; color:#38bdf8;">E300</div>
+                <div style="font-size:0.8rem; color:var(--text-muted);">Akash Institute of Engineering & Technology, Devanahalli</div>
+              </div>
+              <div style="padding:12px; background:rgba(255,255,255,0.03); border-radius:8px; border:1px solid var(--border-glass);">
+                <div style="font-size:0.75rem; color:var(--text-dim); text-transform:uppercase;">COMEDK Code (UGET Engineering)</div>
+                <div style="font-size:1.3rem; font-weight:800; color:#f27024;">E005</div>
+                <div style="font-size:0.8rem; color:var(--text-muted);">All-India Engineering Counselling</div>
+              </div>
+              <div style="padding:12px; background:rgba(255,255,255,0.03); border-radius:8px; border:1px solid var(--border-glass);">
+                <div style="font-size:0.75rem; color:var(--text-dim); text-transform:uppercase;">KEA-PGCET Codes</div>
+                <div style="font-size:1.1rem; font-weight:700; color:#10b981;">MBA: B097 | MCA: C550</div>
+                <div style="font-size:0.8rem; color:var(--text-muted);">Postgraduate Common Entrance Test</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Required Documents -->
+          <div class="data-card">
+            <span class="card-badge">Checklist</span>
+            <h3 class="card-h3">Mandatory Documents Checklist</h3>
+            <ul style="padding-left:18px; margin-top:8px; font-size:0.85rem; color:var(--text-muted); display:flex; flex-direction:column; gap:6px;">
+              <li>10th Standard / SSLC Original Marks Card</li>
+              <li>12th Standard / 2nd PUC Original Marks Card</li>
+              <li>Transfer Certificate (TC) from prior institution</li>
+              <li>Migration Certificate (Non-Karnataka / CBSE / ICSE)</li>
+              <li>Conduct / Character Certificate</li>
+              <li>KCET / COMEDK / PGCET Rank Card & Allotment Letter</li>
+              <li>Karnataka Study Certificate (7 years for KCET quota)</li>
+              <li>Caste & Income Certificate (if claiming reservation in Karnataka)</li>
+              <li>Student Aadhaar Card copy (4 copies)</li>
+              <li>Recent passport size photographs (6 copies)</li>
+            </ul>
+          </div>
+
+          <!-- Contact Office -->
+          <div class="data-card">
+            <span class="card-badge">Campus Contacts</span>
+            <h3 class="card-h3">Admissions Helpdesk</h3>
+            <div style="font-size:0.88rem; color:var(--text-muted); margin-bottom:14px;">
+              Visit our central admissions office on campus or connect via official hotlines:
+            </div>
+            <div style="display:flex; flex-direction:column; gap:10px; font-size:0.88rem;">
+              <div><strong>📍 Address:</strong> Prasannahalli Road, Devanahalli, Bengaluru – 562110</div>
+              <div><strong>📞 Mobile / WhatsApp:</strong> +91 9513107575 / +91 9513597575</div>
+              <div><strong>☎️ Landline:</strong> 080-244-11-222</div>
+              <div><strong>✉️ Email:</strong> admissions@akashinstitutions.com</div>
+              <div><strong>🌐 Admissions Portal:</strong> <a href="https://admissions.akashinstitutions.com/engineering" target="_blank" rel="noopener noreferrer" style="color:var(--aiet-blue-light)">admissions.akashinstitutions.com</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           TAB 8: KNOWLEDGE BASE ADMINISTRATION
+           ========================================== -->
+      <section class="tab-panel" id="admin-tab">
+        <div class="page-hero">
+          <h2 class="page-title">Knowledge Base Administration</h2>
+          <p class="page-desc">Securely inspect indexed documents, upload approved circulars, extract text previews, and manage the vector database.</p>
+        </div>
+
+        <div style="max-width:850px; margin:0 auto; background:var(--bg-card); border:1px solid var(--border-glass); border-radius:var(--radius-xl); padding:24px; margin-bottom:24px;">
+          <div style="display:flex; align-items:center; gap:12px; margin-bottom:18px;">
+            <input type="password" id="adminKeyInput" class="form-control" placeholder="Enter Admin Secret Key (default: aiet_admin_secret_2026)" style="flex:1;">
+            <button class="btn-primary" id="saveAdminKeyBtn">Authenticate</button>
+          </div>
+          <div style="font-size:0.75rem; color:var(--text-dim);">
+            Protected administrative endpoints require <code>ADMIN_API_KEY</code>. Unauthorized public modification is strictly prohibited.
+          </div>
+        </div>
+
+        <div id="adminPanelArea" style="display:none; max-width:850px; margin:0 auto;">
+          <div style="display:flex; gap:12px; margin-bottom:24px;">
+            <button class="btn-primary" id="rebuildKbBtn" style="background:#0284c7;">
+              Rebuild Full Vector Database
+            </button>
+          </div>
+
+          <!-- Ingestion Form -->
+          <div class="data-card" style="margin-bottom:24px;">
+            <h3 class="card-h3">Index Approved Official Document</h3>
+            <form id="adminIngestForm" style="margin-top:14px;">
+              <div class="form-group">
+                <label class="form-label">Document Title</label>
+                <input type="text" id="ingestTitle" class="form-control" placeholder="e.g. Revised Academic Calendar 2026-27" required>
+              </div>
+              <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+                <div class="form-group">
+                  <label class="form-label">Category</label>
+                  <select id="ingestCategory" class="form-control">
+                    <option value="Academic Information">Academic Information</option>
+                    <option value="Courses and Departments">Courses and Departments</option>
+                    <option value="Fees and Expenses">Fees and Expenses</option>
+                    <option value="Scholarships">Scholarships</option>
+                    <option value="Faculty Directory">Faculty Directory</option>
+                    <option value="Infrastructure">Infrastructure</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Official Source URL</label>
+                  <input type="url" id="ingestSourceUrl" class="form-control" value="https://akashiet.com/">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Verified Document Content</label>
+                <textarea id="ingestContent" class="form-control" placeholder="Paste official text or extracted notification here..." required></textarea>
+              </div>
+              <button type="submit" class="btn-primary">Verify & Ingest into ChromaDB</button>
+            </form>
+          </div>
+
+          <!-- Document List -->
+          <div class="data-card">
+            <h3 class="card-h3">Indexed Vector Knowledge Items</h3>
+            <div id="adminDocsList" style="margin-top:12px;">
+              <!-- Loaded dynamically -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <div class="footer-links">
+        <a href="https://akashiet.com/" target="_blank" rel="noopener noreferrer" class="footer-link">Official Website</a>
+        <a href="https://akashiet.com/faculty/" target="_blank" rel="noopener noreferrer" class="footer-link">Faculty Directory</a>
+        <a href="https://admissions.akashinstitutions.com/engineering" target="_blank" rel="noopener noreferrer" class="footer-link">Admissions Portal</a>
+        <a href="https://vtu.ac.in/" target="_blank" rel="noopener noreferrer" class="footer-link">VTU Portal</a>
+      </div>
+      <div>
+        Akash Institute of Engineering and Technology (AIET) • Prasannahalli Road, Devanahalli, Bengaluru, Karnataka – 562110
+      </div>
+      <div style="margin-top:4px; font-size:0.75rem; color:var(--text-dim);">
+        VTU Affiliated • AICTE Approved • College: Mon-Fri 9:00 AM - 4:00 PM, Sat 9:00 AM - 1:00 PM • Office: Mon-Fri 3:00 PM - 5:00 PM, Sat 1:00 PM - 3:00 PM • KCET: E300 | COMEDK: E005
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="/static/js/voice.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

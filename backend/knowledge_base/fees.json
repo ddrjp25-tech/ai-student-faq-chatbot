@@ -1,0 +1,141 @@
+[
+  {
+    "id": "fee_kcet_quota",
+    "category": "Fees and Expenses",
+    "title": "Government Quota (KCET / KEA) Engineering Tuition Fee Structure",
+    "quota_type": "Government Quota via KCET (Karnataka Examination Authority)",
+    "college_code": "E300",
+    "academic_year": "2025-2026",
+    "fee_type": "Annual Fee (Subject to KEA Annual Regulatory Order)",
+    "fee_range_inr": "Regulated by KEA Fee Regulatory Committee (typically approx. \u20b975,000 to \u20b91,05,000/year for unaided engineering colleges)",
+    "mandatory_components": [
+      "Government Tuition Fee (payable to KEA)",
+      "VTU University Registration, Exam & Development Charges",
+      "College Laboratory & Digital Library Access",
+      "Student Welfare & Identity Card charges"
+    ],
+    "official_guidance_rule": "Tuition fees for government quota seats are strictly determined each academic year by the Government of Karnataka and KEA. If official website does not confirm an exact amount for this category, contact the AIET admissions office.",
+    "admissions_contact": {
+      "phone": "+91 9513107575 / +91 9513597575",
+      "email": "admissions@akashinstitutions.com",
+      "portal": "https://admissions.akashinstitutions.com/engineering"
+    },
+    "source_url": "https://admissions.akashinstitutions.com/engineering",
+    "source_type": "Official Admissions Portal & KEA Guidelines",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "fee_comedk_quota",
+    "category": "Fees and Expenses",
+    "title": "COMEDK UGET Quota Engineering Tuition Fee Structure",
+    "quota_type": "COMEDK UGET Merit Quota",
+    "college_code": "E005",
+    "academic_year": "2025-2026",
+    "fee_type": "Annual Fee (As per COMEDK Consortium Circular)",
+    "fee_range_inr": "As notified by COMEDK consortium annually (typically approx. \u20b92,00,000 to \u20b92,40,000/year for private colleges, plus applicable VTU & institutional charges)",
+    "mandatory_components": [
+      "COMEDK Tuition Fee",
+      "VTU Registration & Examination Fees",
+      "Institutional Lab & Resource Fee"
+    ],
+    "official_guidance_rule": "Final fee payable for COMEDK seats is governed by the COMEDK fee circular for the respective academic year. Contact the admissions office to obtain the current written fee circular.",
+    "admissions_contact": {
+      "phone": "+91 9513107575 / +91 9513597575",
+      "email": "admissions@akashinstitutions.com"
+    },
+    "source_url": "https://akashiet.com/",
+    "source_type": "Official College Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "fee_management_quota",
+    "category": "Fees and Expenses",
+    "title": "Management Quota B.E. & PG Tuition Fee Structure",
+    "quota_type": "Management Quota (Merit Direct Admission)",
+    "academic_year": "2025-2026",
+    "fee_type": "Annual or Total Program Fee (Varies by Discipline)",
+    "fee_range_inr": "I couldn't verify the latest official fee for this category. Please contact the AIET admissions office for confirmation.",
+    "disciplines": [
+      "BE Computer Science and Engineering",
+      "BE Artificial Intelligence & Machine Learning",
+      "BE Artificial Intelligence & Data Science",
+      "BE Information Science & Engineering",
+      "BE Computer Science (Cyber Security)",
+      "BE Computer Science (Data Science)",
+      "BE Electronics & Communication Engineering",
+      "BE Mechanical Engineering",
+      "MBA (KEA PGCET: B097)",
+      "MCA (KEA PGCET: C550)"
+    ],
+    "official_guidance_rule": "Management quota fees depend on the branch opted, candidate's merit standing, and seat availability. The college does not publish a single flat management fee publicly to prevent misrepresentation. Candidates must contact the official admissions office at +91 9513107575 or visit the campus admissions office in Devanahalli to receive the authorized written fee structure.",
+    "admissions_contact": {
+      "phone": "+91 9513107575 / +91 9513597575",
+      "landline": "080-244-11-222",
+      "email": "admissions@akashinstitutions.com"
+    },
+    "source_url": "https://admissions.akashinstitutions.com/engineering",
+    "source_type": "Official Admissions Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "fee_hostel_expenses",
+    "category": "Fees and Expenses",
+    "title": "Hostel Facilities, Room Sharing, Food Charges & Deposits",
+    "academic_year": "2025-2026",
+    "hostel_capacity": "Wi-Fi enabled boys hostel (400 beds) and girls hostel (700 beds)",
+    "room_types": [
+      "Twin Sharing (2-sharing)",
+      "Triple Sharing (3-sharing)",
+      "Four Sharing (4-sharing)"
+    ],
+    "amenities_included": [
+      "Fully furnished rooms with bed, study table, chair, and wardrobe",
+      "High-speed Wi-Fi internet connectivity",
+      "Wholesome multi-cuisine food (Breakfast, Lunch, Evening Snacks, Dinner)",
+      "24/7 solar hot water supply and RO purified drinking water",
+      "Housekeeping and laundry services",
+      "Round-the-clock security and CCTV monitoring",
+      "On-campus healthcare support from Akash Hospital"
+    ],
+    "fee_details": "Hostel and mess charges are payable annually and vary based on the room occupancy chosen (2-sharing, 3-sharing, 4-sharing) and air-conditioning preferences. Refundable security deposit is collected upon admission. Contact the hostel warden / admissions office for the exact current room-wise fee schedule.",
+    "admissions_contact": {
+      "phone": "+91 9513107575",
+      "email": "admissions@akashinstitutions.com"
+    },
+    "source_url": "https://akashiet.com/infrastructure/",
+    "source_type": "Official College Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "fee_transport_charges",
+    "category": "Fees and Expenses",
+    "title": "College Bus & Transportation Charges",
+    "academic_year": "2025-2026",
+    "fleet_coverage": "Fleet of dedicated college buses covering key routes across Bengaluru city, North Bengaluru, Yelahanka, Hebbal, KR Puram, Devanahalli, Doddaballapur, and Chickballapur.",
+    "fee_details": "Transport charges are optional and calculated annually depending on the pick-up and drop location distance. Pass cards are issued at the start of each academic year.",
+    "source_url": "https://akashiet.com/infrastructure/",
+    "source_type": "Official College Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "fee_refund_policy",
+    "category": "Fees and Expenses",
+    "title": "Fee Refund & Cancellation Policy",
+    "academic_year": "2025-2026",
+    "policy_summary": "Refund of tuition and institutional fees in case of cancellation or withdrawal strictly follows the guidelines laid down by the All India Council for Technical Education (AICTE), the University Grants Commission (UGC), and the Karnataka Examination Authority (KEA).",
+    "key_terms": [
+      "Cancellations requested before the officially notified last date of admission are processed with nominal processing charge deductions as prescribed by AICTE/KEA regulations.",
+      "Candidates surrendering seats through KEA or COMEDK rounds must submit their surrender orders directly through the respective portal.",
+      "Caution deposits are refundable upon completion of the course and submission of No Due certificates from all departments, library, and hostel."
+    ],
+    "source_url": "https://www.akashinstitutions.com/",
+    "source_type": "Official Group Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  }
+]

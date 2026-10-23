@@ -1,0 +1,83 @@
+[
+  {
+    "id": "src_aiet_home",
+    "title": "AIET Official Website Homepage",
+    "url": "https://akashiet.com/",
+    "source_type": "Official College Portal",
+    "category": "College Profile",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "src_aiet_about",
+    "title": "About Akash Institute of Engineering and Technology",
+    "url": "https://akashiet.com/about-us/",
+    "source_type": "Official College Portal",
+    "category": "Institutional Overview",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "src_aiet_faculty",
+    "title": "AIET Official Faculty Directory",
+    "url": "https://akashiet.com/faculty/",
+    "source_type": "Official Faculty Records",
+    "category": "Faculty Directory",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "src_aiet_infrastructure",
+    "title": "Campus Infrastructure & Facilities",
+    "url": "https://akashiet.com/infrastructure/",
+    "source_type": "Official Campus Documentation",
+    "category": "Infrastructure",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "src_agi_courses",
+    "title": "Akash Group Engineering (B.E.) Courses",
+    "url": "https://www.akashinstitutions.com/courses/engineering-be/",
+    "source_type": "Official Group Portal",
+    "category": "Courses & Academics",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "src_agi_scholarships",
+    "title": "Scholarships & Financial Assistance",
+    "url": "https://www.akashinstitutions.com/scholarships/",
+    "source_type": "Official Scholarship Records",
+    "category": "Scholarships",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "src_agi_admissions",
+    "title": "Engineering Admissions Portal",
+    "url": "https://admissions.akashinstitutions.com/engineering",
+    "source_type": "Official Admissions Portal",
+    "category": "Admissions & Fees",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "src_agi_institutional",
+    "title": "AIET Institutional Profile",
+    "url": "https://www.akashinstitutions.com/colleges/akash-institute-of-engineering-technology/",
+    "source_type": "Official Institutional Record",
+    "category": "College Profile",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "src_vtu_affiliation",
+    "title": "Visvesvaraya Technological University (VTU) Affiliation",
+    "url": "https://vtu.ac.in/",
+    "source_type": "University Affiliation Body",
+    "category": "Affiliations & Approvals",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  }
+]

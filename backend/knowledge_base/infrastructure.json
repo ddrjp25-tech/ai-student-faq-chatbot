@@ -1,0 +1,173 @@
+[
+  {
+    "id": "infra_campus_overview",
+    "category": "Infrastructure",
+    "title": "AIET Campus Overview & Learning Environment",
+    "description": "Akash Institute of Engineering & Technology is established on a vast, eco-friendly campus on Prasannahalli Road, Devanahalli, North Bengaluru. The campus features state-of-the-art academic blocks, smart lecture halls, advanced research laboratories, central library, Wi-Fi connectivity, separate student hostels, sports grounds, and on-campus hospital support.",
+    "source_url": "https://akashiet.com/infrastructure/",
+    "source_type": "Official College Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "infra_classrooms",
+    "category": "Infrastructure",
+    "title": "Smart Classrooms & Lecture Halls",
+    "description": "ICT-enabled lecture halls equipped with digital projectors, audio-visual systems, high-speed Wi-Fi, and ergonomic seating designed to foster interactive and participatory teaching-learning experiences.",
+    "source_url": "https://akashiet.com/infrastructure/",
+    "source_type": "Official College Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "infra_computer_labs",
+    "category": "Infrastructure",
+    "title": "Specialized Computer Science & AI Laboratories (First Floor)",
+    "description": "Modern air-conditioned computer laboratories equipped with high-end workstations, gigabit network backbones, and development stacks. Located on the first floor. Labs include: Data Structures Lab, Python Lab, DBMS Lab, Java Lab, C-Programming Lab, Operating Systems Lab, Artificial Intelligence & Machine Learning Lab, and Cybersecurity Defense Lab.",
+    "floor_location": "First Floor",
+    "source_url": "https://www.akashinstitutions.com/colleges/akash-institute-of-engineering-technology/",
+    "source_type": "Official College Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "infra_library",
+    "category": "Infrastructure",
+    "title": "Central Library & Digital E-Library (First Floor)",
+    "description": "Comprehensive library housing extensive collections of standard engineering textbooks, reference volumes, print journals, and digital e-resources under VTU Consortium. Located on the first floor. Includes a multimedia digital library section with high-speed internet for accessing research papers, NPTEL courseware, and e-books.",
+    "floor_location": "First Floor",
+    "source_url": "https://akashiet.com/infrastructure/",
+    "source_type": "Official College Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "infra_chemistry_lab",
+    "category": "Infrastructure",
+    "title": "Engineering Chemistry Laboratory (Ground Floor)",
+    "description": "Equipped with state-of-the-art instrumental analysis and chemical experimentation equipment for basic science engineering curriculum. Located on the ground floor.",
+    "floor_location": "Ground Floor",
+    "source_url": "https://akashiet.com/infrastructure/",
+    "source_type": "Official College Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "infra_physics_lab",
+    "category": "Infrastructure",
+    "title": "Engineering Physics Laboratory (Fourth Floor)",
+    "description": "Advanced physics laboratory equipped with optical benches, laser apparatus, and semiconductor testing equipment. Located on the fourth floor.",
+    "floor_location": "Fourth Floor",
+    "source_url": "https://akashiet.com/infrastructure/",
+    "source_type": "Official College Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "infra_principal_office",
+    "category": "Infrastructure",
+    "title": "Principal's Office (Ground Floor)",
+    "description": "The Principal's Office of Akash Institute of Engineering and Technology (AIET) is situated on the ground floor. It serves as the institutional head office for academic and executive administration.",
+    "floor_location": "Ground Floor",
+    "source_url": "https://akashiet.com/",
+    "source_type": "Official College Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "infra_admin_office",
+    "category": "Infrastructure",
+    "title": "Administrative Office & Student Section (Ground Floor)",
+    "description": "The college administrative office is located on the ground floor. Office timing is from 3:00 PM to 5:00 PM Monday to Friday, and from 1:00 PM to 3:00 PM on Saturday. It assists students with admissions, certificates, fee receipts, identity cards, and university documentation.",
+    "floor_location": "Ground Floor",
+    "office_hours": "Monday to Friday: 3:00 PM to 5:00 PM; Saturday: 1:00 PM to 3:00 PM",
+    "source_url": "https://akashiet.com/",
+    "source_type": "Official College Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "infra_stationery_store",
+    "category": "Infrastructure",
+    "title": "Books and Stationery Store (Ground Floor)",
+    "description": "The campus books and stationery store is located on the ground floor. Students can procure VTU prescribed textbooks, assignment books, records, engineering drawing instruments, stationery, and academic supplies here.",
+    "floor_location": "Ground Floor",
+    "source_url": "https://akashiet.com/",
+    "source_type": "Official College Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "infra_floor_directory",
+    "category": "Infrastructure",
+    "title": "Campus Floor Directory & Landmark Navigation",
+    "description": "Campus Floor Navigation Directory: 1. Ground Floor: Houses the Principal's Office, the Administrative Office, the Books and Stationery store, and the Chemistry Lab. 2. First Floor: Houses the Central Library and the Computer Labs. 3. Fourth Floor: Houses the Physics Lab.",
+    "ground_floor": "Principal Office, College Administrative Office, Books and Stationery store, Chemistry Lab",
+    "first_floor": "Central Library, Computer Labs",
+    "fourth_floor": "Physics Lab",
+    "source_url": "https://akashiet.com/",
+    "source_type": "Official College Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "infra_hostels",
+    "category": "Infrastructure",
+    "title": "Student Residential Hostels (Boys & Girls)",
+    "description": "Separate Wi-Fi enabled hostels on campus with 400 accommodations for boys and 700 accommodations for girls. Features furnished rooms (twin/triple/quad sharing), 24/7 security, CCTV surveillance, continuous water supply with solar heating, hygienic mess dining facilities, reading room, indoor games, and laundry service.",
+    "source_url": "https://akashiet.com/infrastructure/",
+    "source_type": "Official College Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "infra_auditorium",
+    "category": "Infrastructure",
+    "title": "Central Auditorium & Seminar Facilities",
+    "description": "Magnificent air-conditioned central auditorium with 1,500 seating capacity, equipped with world-class acoustic engineering, advanced lighting, and stage multimedia systems for hosting national conferences, technical symposiums, hackathons, and cultural fests.",
+    "source_url": "https://akashiet.com/infrastructure/",
+    "source_type": "Official College Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "infra_hospital",
+    "category": "Infrastructure",
+    "title": "Akash Hospital & On-Campus Healthcare Support",
+    "description": "Unique advantage of an integrated on-campus multi-specialty teaching hospital (Akash Hospital) operating 24 hours a day, 7 days a week. Provides immediate emergency medical support, outpatient and inpatient care, specialized consultations, diagnostic laboratories, and round-the-clock ambulance service for students, faculty, and staff.",
+    "source_url": "https://akashiet.com/infrastructure/",
+    "source_type": "Official College Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "infra_sports",
+    "category": "Infrastructure",
+    "title": "Sports, Fitness & Recreation",
+    "description": "Extensive outdoor sports grounds for cricket, football, basketball, and volleyball. Indoor sports arena for table tennis, badminton, carrom, and chess. Fully equipped gymnasium to promote physical health and active lifestyle.",
+    "source_url": "https://akashiet.com/infrastructure/",
+    "source_type": "Official College Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "infra_cafeteria",
+    "category": "Infrastructure",
+    "title": "Cafeteria & Dining Facilities",
+    "description": "Spacious, hygienic cafeteria serving fresh South Indian, North Indian, and continental food, healthy snacks, and beverages at subsidized student rates. Prepared under strict hygiene and quality oversight.",
+    "source_url": "https://akashiet.com/infrastructure/",
+    "source_type": "Official College Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  },
+  {
+    "id": "infra_transport",
+    "category": "Infrastructure",
+    "title": "Transportation & Bus Services",
+    "description": "Fleet of well-maintained college buses connecting AIET campus with various parts of Bengaluru urban and rural districts including Yelahanka, Hebbal, Majestic, RT Nagar, KR Puram, Devanahalli town, and Doddaballapur.",
+    "source_url": "https://akashiet.com/infrastructure/",
+    "source_type": "Official College Portal",
+    "last_verified_date": "2026-03-15",
+    "verification_status": "VERIFIED_OFFICIAL"
+  }
+]
